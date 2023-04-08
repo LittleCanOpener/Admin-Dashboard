@@ -17,10 +17,7 @@ body {
     color: white;
     grid-area: logo;
 }
-.navbar {
-    background-color: blanchedalmond;
-    grid-area: navbar;
-}
+
 .grid {
     background-color: brown;
     grid-area: section;
@@ -50,6 +47,9 @@ ul {
     display: grid;
     gap: 1.1em;
     padding-left: 20px;
+}
+li:nth-child(6){
+margin-bottom: 50px;
 }
 li {
     display: grid;
