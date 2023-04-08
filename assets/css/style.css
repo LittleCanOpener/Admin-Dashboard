@@ -40,6 +40,8 @@ body {
 }
 .logo {
     padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 ul {
     display: grid;
@@ -57,12 +59,19 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    cursor: pointer;
+    transform: translateY(3px);
+    transition: ease 0.3s;
+}
 i {
     padding-right: 10px;
 }
 img {
     width: 30px;
+    height: 60px;
     color: white;
+    align-self: center;
 }
 .hamburger {
     display: none;
