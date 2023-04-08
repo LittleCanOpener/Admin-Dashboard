@@ -23,9 +23,7 @@
         Click on the link to go to the live deployed page.
     </li>
     <li><h2>
-        <a href="
-https://littlecanopener.github.io/Admin-Dashboard/">
-        Preview</a>
+        <a href=" https://littlecanopener.github.io/Admin-Dashboard/">Preview</a>
 </h2></li>
 </ul>
 <hr>
@@ -54,7 +52,7 @@ https://littlecanopener.github.io/Admin-Dashboard/">
 <h1>Technologies</h1>
 <h3>Discord:</h3>
 <p>
-    <img src="./assets/images/readme/discord.png" width="50px" height="50px"><br>
+    <img src="./assets/images/icons/discord.png" width="50px" height="50px"><br>
     <a href="https://discord.com/" target="_blank">Discord</a>
     was used for team communication and meetings between team members
 </p><hr>
