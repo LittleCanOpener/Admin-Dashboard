@@ -22,10 +22,9 @@
     <li>
         Click on the link to go to the live deployed page.
     </li>
-    <li><h2>
-        <a href=" https://littlecanopener.github.io/Admin-Dashboard/">
-        Preview</a>
-    </h2></li>
+<h2>
+    <a href="https://littlecanopener.github.io/Admin-Dashboard/" target="_blank"> Live Preview</a>
+</h2>
 </ul>
 <hr>
 <ul>
