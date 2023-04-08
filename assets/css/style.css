@@ -13,7 +13,8 @@ body {
     }
 .sidebar {
     width: 200px;
-    background-color: aqua;
+    background-color: #2d88f0;
+    color: white;
     grid-area: logo;
 }
 .navbar {
@@ -33,6 +34,36 @@ body {
 .grid .box {
    background-color: antiquewhite;
 }
-.grid::before {
-    content: "Hello";
+.sidebar-container {
+    display: grid;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+.logo {
+    padding-left: 20px;
+}
+ul {
+    display: grid;
+    gap: 1.1em;
+    padding-left: 20px;
+}
+li {
+    display: grid;
+    place-self: stretch;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 0.875em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+i {
+    padding-right: 10px;
+}
+img {
+    width: 30px;
+    color: white;
+}
+.hamburger {
+    display: none;
 }
