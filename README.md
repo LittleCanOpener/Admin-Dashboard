@@ -1,4 +1,3 @@
-# Admin-Dashboard
 <h1>Brainnest Project Admin Dashboard Advanced Course - CSS & HTML</h1>
 <img src="./assets/images/readme/responsive.png">
 <h1>Deployment</h1>
@@ -24,7 +23,8 @@
         Click on the link to go to the live deployed page.
     </li>
     <li><h2>
-        <a href="#">
+        <a href="
+https://littlecanopener.github.io/Admin-Dashboard/">
         Preview</a>
 </h2></li>
 </ul>
@@ -52,11 +52,18 @@
 <img src="./assets/images/wireframe/Admin-Dashboard-example.png">
 
 <h1>Technologies</h1>
+<h3>Discord:</h3>
+<p>
+    <img src="./assets/images/readme/discord.png" width="50px" height="50px"><br>
+    <a href="https://discord.com/" target="_blank">Discord</a>
+    was used for team communication and meetings between team members
+</p><hr>
+
 <h3>Google Fonts:</h3>
 <p>
     <img src="./assets/images/icons/googlefonts.svg" width="50px" height="50px"><br>
     <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
-    was used to meet the client's request on using <a href="https://fonts.google.com/specimen/Roboto" target="_blank">Roboto</a> for the text
+    was used to meet the client's request on using <a href="https://fonts.google.com/specimen/Poppins" target="_blank">Poppins</a> And <a href="https://fonts.google.com/specimen/Schibsted+Grotesk" target="_blank">Schibsted Grotesk</a>
 </p><hr>
 
 <h3>GitPod:</h3>
