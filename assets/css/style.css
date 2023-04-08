@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "logo navbar navbar"
+    "logo section section"
+    "logo section section"
+    "logo section section"
+    "logo section section";
+    }
+.sidebar {
+    width: 200px;
+    background-color: #2d88f0;
+    color: white;
+    grid-area: logo;
+}
+.navbar {
+    background-color: blanchedalmond;
+    grid-area: navbar;
+}
+.grid {
+    background-color: brown;
+    grid-area: section;
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+.grid .box {
+   background-color: antiquewhite;
+}
+.sidebar-container {
+    display: grid;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+.logo {
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+h4{
+    align-self: center;
+}
+ul {
+    display: grid;
+    gap: 1.1em;
+    padding-left: 20px;
+}
+li {
+    display: grid;
+    place-self: stretch;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 0.875em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    cursor: pointer;
+    transform: translateY(3px);
+    transition: ease 0.3s;
+}
+i {
+    padding-right: 10px;
+}
+img {
+    width: 30px;
+    height: 60px;
+    color: white;
+    align-self: center;
+}
+.hamburger {
+    display: none;
+}

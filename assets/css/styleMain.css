@@ -24,28 +24,6 @@ body {
 
 
 
-body {
-    margin: 0;
-}
-.container {
-    display: grid;
-    height: 100vh;
-    grid-template-areas: 
-    "logo navbar navbar"
-    "logo section section"
-    "logo section section"
-    "logo section section"
-    "logo section section";
-    }
-.sidebar {
-    width: 200px;
-    background-color: aqua;
-    grid-area: logo;
-}
-.navbar {
-    background-color: blanchedalmond;
-    grid-area: navbar;
-}
 
 
 
