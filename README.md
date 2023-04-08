@@ -23,8 +23,9 @@
         Click on the link to go to the live deployed page.
     </li>
     <li><h2>
-        <a href=" https://littlecanopener.github.io/Admin-Dashboard/">Preview</a>
-</h2></li>
+        <a href=" https://littlecanopener.github.io/Admin-Dashboard/">
+        Preview</a>
+    </h2></li>
 </ul>
 <hr>
 <ul>
