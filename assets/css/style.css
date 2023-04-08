@@ -1,7 +1,6 @@
 /* CSS RESSETS */
 body {
     margin: 0;
-
   }
   
   h1,
@@ -57,13 +56,13 @@ body {
 
 
 .grid {
-    background-color: lightcyan;
+    background-color: #f1f5f9;
     padding: 20px;
 }
 .grid-container {
     display: grid;
     grid-template-columns: 4fr 4fr 2fr;
-    gap: 15px;
+    gap: 2em;
 
 }
 .grid .box ,.box-1{
@@ -77,16 +76,15 @@ border-radius: 5px;
 box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.65); 
 }
 .box{
-    border-left: 5px solid #ffa500;
+    border-left: 10px solid #f59e0b;
     display: grid;
     justify-content: space-between;
-    height: 200px;
 }
 .box-1{
     padding-bottom: 20px;
 }
 .col{
-    gap: 15px;
+    gap: 2em;
     display: grid;
     font-size: 1rem;
 }
@@ -120,3 +118,13 @@ margin-left: 40%;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
+@media only screen and (max-width: 1200px) {
+    .grid-container{
+        grid-template-columns: 2fr 2fr 1fr;
+    }  
+
+
+}
+ 
+
+
