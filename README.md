@@ -1,5 +1,5 @@
 <h1>Brainnest Project Admin Dashboard Advanced Course - CSS & HTML</h1>
-<img src="./assets/images/readme/responsive.png">
+<img src="./assets/images/am-i-responsive.png">
 <h1>Deployment</h1>
 
 <ul>
